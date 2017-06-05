@@ -1,4 +1,4 @@
-Package: ComponentPredict
+Package: BApredict
 Type: Package
 Title: Component Predictions of Baseball Batting Averages
 Version: 0.1.0
