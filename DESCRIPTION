@@ -2,7 +2,7 @@ Package: BApredict
 Type: Package
 Title: Component Predictions of Baseball Batting Averages
 Version: 0.1.0
-Depends:  LearnBayes, ggplot2, dplyr, htmltab 
+Depends:  LearnBayes, ggplot2, dplyr, htmltab, stringr 
 Author: Jim Albert
 Maintainer: Jim Albert <albert@bgsu.edu>
 Description: Reads current batting data from the Internet and computes and graphs predictions of final season averages.
