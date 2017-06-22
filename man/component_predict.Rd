@@ -2,10 +2,10 @@
 \alias{component_predict}
 
 \title{
-  Computes component predictions of batting avereages
+  Computes component predictions of batting averages
 }
 \description{
-  Computes component predictions of batting avereages
+  Computes component predictions of batting avreages
 }
 \usage{
   component_predict(d)
