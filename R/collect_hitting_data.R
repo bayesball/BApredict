@@ -8,5 +8,5 @@ collect_hitting_data <- function(){
   d1$playerID <- paste(1:(dim(d1)[1]),
                        d1$Player, sep=" ")
   names(d1)[11] <- "SO"
-  select(d1, playerID, AB, H, HR, SO)
+  select(d1, playerID, Team, AB, H, HR, SO)
 }

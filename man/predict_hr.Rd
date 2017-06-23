@@ -8,9 +8,7 @@
   Simulates predictive distribution of season home runs using a beta-binomial model
 }
 \usage{
-  predict_hr(d, lastname, 
-                       future_games,
-                       ITER=10000)
+  predict_hr(d, lastname, ITER=10000)
 }
 \arguments{
   \item{d}{
@@ -18,9 +16,6 @@
   }
   \item{lastname}{
       last name of player of interest
-  }
-  \item{future_games}{
-      number of games in remainder of season
   }
 }
 
@@ -30,6 +25,12 @@
   }
   \item{current_AB}{
      number of current at-bats
+  }
+  \item{future_G}{
+     number of games in remainder of season
+  }
+  \item{future_AB}{
+     estimated number of at-bats in remainder of season
   }
   \item{future_HR}{
   vector of simulated values of future home run counts from predictive distribution
