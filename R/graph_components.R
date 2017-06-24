@@ -1,4 +1,4 @@
-newgraph <- function(out){
+graph_components <- function(out){
   d1 <- data.frame(SO.Rate = out$S$SO / out$S$AB,
                  BABIP.Rate = out$S$H.HR / out$S$AB.SO.HR,
                  AVG = out$S$H / out$S$AB1,

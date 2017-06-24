@@ -1,5 +1,5 @@
-\name{newgraph}
-\alias{newgraph}
+\name{graph_components}
+\alias{graph_components}
 
 \title{
   Scatterplots of observed and predicted component rates
@@ -8,7 +8,7 @@
   Scatterplots of observed and predicted component rates
 }
 \usage{
-  newgraph(d2)
+  graph_components(d2)
 }
 \arguments{
   \item{d2}{
@@ -27,5 +27,5 @@
  ## Not run: 
  d <- collect_hitting_data()
  S <- component_predict(d)
- newgraph(S)
+ graph_components(S)
 }
