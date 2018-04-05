@@ -4,7 +4,8 @@ collect_hitting_data <- function(){
   d1 <- d[[1]]
   names(d1)[13] <- "AVG"
   names(d1)[11] <- "SO"
+  names(d1)[1] <- "playerID"
 #  d1$playerID <- paste(1:(dim(d1)[1]),
 #                      d1$Player, sep=" ")
-  dplyr::select(d1, Player, Team, AB, H, HR, SO, BB)
+  dplyr::select(d1, playerID, Team, AB, H, HR, SO, BB)
 }
