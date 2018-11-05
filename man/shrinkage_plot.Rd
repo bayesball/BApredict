@@ -32,7 +32,7 @@
 \examples{
  ## Not run: 
  d <- collect_hitting_data()
- fit <- fit_bb_model(list(y = d$AVG, n = d$n))
+ fit <- fit_bb_model(list(y = d$H, n = d$AB))
  S <- data.frame(Player = d$playerID, 
  Individual = d$H / d$AB, Multilevel = fit$d$est)
  shrinkage_plot(S)
